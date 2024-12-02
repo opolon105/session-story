@@ -1,0 +1,64 @@
+main {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 100px;
+}
+
+header {
+  background: linear-gradient(217deg, #8f6d4b, #dd9b6e);
+  height: 100px;
+  width: 100%;
+  border-bottom: 3px SOLID black;
+  text-align: center;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(/PNG/photo_2024-11-20_22-55-17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Nunito";
+  font-size: 22px;
+}
+h1 {
+  text-align: center;
+}
+.buttons {
+  border: black solid 3px;
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+
+  text-align: center;
+         
+  border-radius: 15px 15px 15px 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.button-counteiner-row {
+  display: flex;
+  flex-direction: row;
+}
+h1{
+  color: black;
+}
+
+.navigashion-button{
+  color: black;
+  width: 33%; 
+  border-right: 3px SOLID black;
+
+}
+.button-navigation-row{
+  display: flex;
+  justify-content: space-evenly;}
+
+.navigashion-button-last{
+  color: black;
+  width: 33%;
+
+
+}
