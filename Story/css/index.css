@@ -48,7 +48,7 @@ h1{
 
 .navigashion-button{
   color: black;
-  width: 33%; 
+  width: 50%; 
   border-right: 3px SOLID black;
 
 }
@@ -62,3 +62,7 @@ h1{
 
 
 }
+.navigashion-button-right{
+  color: black;
+  width: 50%; 
+} 
