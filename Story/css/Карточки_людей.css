@@ -1,0 +1,64 @@
+header {
+  height: 100px;
+  background-color: aquamarine;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Nunito";
+}
+.IMG {
+  background-image: url("/PNG/background.jpg");
+
+  background-size: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  height: 100%;
+
+  width: 100%;
+}
+.back {
+  height: 50px;
+  background-size: 100%;
+  width: 50px;
+  background-color: blanchedalmond;
+}
+.countainer {
+  display: flex;
+  flex-direction: row;
+}
+.elements {
+  width: 30%;
+  height: 500px;
+  margin: 5% 0% 5% 10%;
+  /* background-color: brown; */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+img {
+  width: 491px;
+  height: 491px;
+}
+.elements-text {
+  width: 30%;
+  height: 550px;
+  margin: 5% 0% 5% 0%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  margin: 5%;
+  color: #3c1b08;
+  font-size: 30px;
+}
+p {
+  font-size: 35px;
+}
