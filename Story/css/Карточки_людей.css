@@ -1,6 +1,6 @@
 header {
   height: 100px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   margin: 0%;
   padding: 0%;
 }
@@ -11,7 +11,7 @@ body {
   font-family: "Nunito";
 }
 .IMG {
-  background-image: url("/PNG/background.jpg");
+  background-image: url("/PNG/Фоны/background.jpg");
 
   background-size: no-repeat;
 
@@ -24,10 +24,10 @@ body {
   width: 100%;
 }
 .back {
-  height: 50px;
+  height: 100%;
   background-size: 100%;
-  width: 50px;
-  background-color: blanchedalmond;
+  width: 40%;
+  margin: 10px;
 }
 .countainer {
   display: flex;
@@ -46,8 +46,8 @@ img {
   height: 491px;
 }
 .elements-text {
-  width: 30%;
-  height: 550px;
+  width: 40%;
+  height: 500px;
   margin: 5% 0% 5% 0%;
   /* background-color: brown; */
   display: flex;
@@ -61,4 +61,17 @@ img {
 }
 p {
   font-size: 35px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1%;
+  width: 25%;
+}
+p {
+  color: #3c1b08;
+}
+a {
+  text-decoration: none;
 }

@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  margin: 0;
+  background: rgb(36, 14, 0);
+  background-image: url("/PNG/Фоны/background.jpg");
+  background-repeat: round no-repeat;
+  color: black;
+}
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 25px;
+  justify-content: space-between;
+}
+.right-top-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.two-buttons {
+  margin-right: 30px;
+  gap: 20px;
+  display: flex;
+}
+.button-first {
+  width: 80px;
+  height: 80px;
+  font-weight: 600;
+  background: rgb(221, 139, 83);
+  background: radial-gradient(
+    circle,
+    rgba(221, 139, 83, 1) 10%,
+    rgba(167, 97, 48, 1) 37%,
+    rgba(60, 27, 8, 1) 95%
+  );
+  border: 0;
+  border-radius: 25%;
+  font-size: 40px;
+  margin-right: 20px;
+}
+.button-second {
+  width: 80px;
+  height: 80px;
+  font-weight: 600;
+  background: rgb(221, 139, 83);
+  background: radial-gradient(
+    circle,
+    rgba(221, 139, 83, 1) 10%,
+    rgba(167, 97, 48, 1) 37%,
+    rgba(60, 27, 8, 1) 95%
+  );
+  border: 0;
+  border-radius: 25%;
+  font-size: 40px;
+}
+.arrow {
+  width: 130px;
+  margin-left: 25px;
+}
+.main {
+  margin: auto;
+  width: 70%;
+}
+h1 {
+  text-align: center;
+}
+.text-main {
+  border: 2px solid black;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 10px;
+  font-size: 24px;
+}
+.people {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.people-images {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.name-text {
+  display: flex;
+  font-size: 40px;
+  justify-content: space-between;
+}
+.name-item {
+  margin: auto;
+}
