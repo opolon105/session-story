@@ -9,6 +9,7 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: "Nunito";
+  color: #3c1b08;
 }
 .IMG {
   background-image: url("/PNG/Фоны/background.jpg");
@@ -34,16 +35,16 @@ body {
   flex-direction: row;
 }
 .elements {
-  width: 30%;
+  width: 40%;
   height: 500px;
   margin: 5% 0% 5% 10%;
   /* background-color: brown; */
   padding-left: 5%;
-  padding-right: 5%;
+  padding-right: 0%;
 }
 img {
-  width: 491px;
-  height: 491px;
+  height: 600px;
+  width:600px;
 }
 .elements-text {
   width: 40%;
@@ -69,9 +70,30 @@ p {
   margin: 1%;
   width: 25%;
 }
-p {
-  color: #3c1b08;
-}
+
 a {
   text-decoration: none;
+}
+.paragraf{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+  border: 3px solid black;
+  border-radius: 25px ;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.gallereya{
+text-align: center;
+font-size: 30px;
+border: 3px solid black;
+border-radius: 25px ;
+margin-top: 1%;
+width: 80%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.gall{
+width: 1000px;
 }
