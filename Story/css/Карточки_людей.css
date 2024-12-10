@@ -12,7 +12,7 @@ body {
   color: #3c1b08;
 }
 .IMG {
-  background-image: url("/PNG/Фоны/background.jpg");
+  background-image: url("../PNG/Фоны/background.jpg");
 
   background-size: no-repeat;
 
@@ -62,6 +62,7 @@ img {
 }
 p {
   font-size: 35px;
+  color: #3c1b08;
 }
 .flex-row {
   display: flex;
@@ -90,9 +91,10 @@ font-size: 30px;
 border: 3px solid black;
 border-radius: 25px ;
 margin-top: 1%;
-width: 80%;
+width: 82%;
 margin-right: 10%;
 margin-left: 10%;
+margin-bottom: 1%;
 }
 .gall{
 width: 1000px;
