@@ -28,8 +28,8 @@ body {
 }
 .two-buttons {
   margin-right: 30px;
-  gap: 20px;
   display: flex;
+  margin-top:20px;
 }
 .button-first {
   width: 80px;
