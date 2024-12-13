@@ -10,7 +10,7 @@ a {
 body {
   margin: 0;
   background: rgb(36, 14, 0);
-  background-image: url("/PNG/Фоны/background.jpg");
+  background-image: url("../PNG/Фоны/background.jpg");
   background-repeat: round no-repeat;
   color: black;
 }
